@@ -16,5 +16,5 @@ func main() {
 	RegisterRoutes(r)
 
 	// Listen and serve on 0.0.0.0:8080
-	r.Run(":8080")
+	r.Run()
 }
